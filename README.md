@@ -92,11 +92,23 @@ function openCity(evt, cityName) {
 
 <div id="kotlin-2" class="tabcontent">
   <h3>Hello World</h3>
-  <p>println("Hello World")</p>
+  <p>
+    ```kotlin
+    println("Hello World")
+    ```
+  </p>
 </div>
+    ```kotlin
+    println("Hello World")
+    ```
 
 <div id="java-2" class="tabcontent">
   <h3>Hello World</h3>
-  <p>system.out.println("Hello World");</p>
+```java
+system.out.println("Hello World");
+```
 </div>
+```java
+system.out.println("Hello World");
+```
 
