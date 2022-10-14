@@ -71,29 +71,33 @@ function openCity(evt, cityName) {
 </table>
 
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+  <button class="tablinks" onclick="openCity(event, 'kotlin-1')">Kotlin</button>
+  <button class="tablinks" onclick="openCity(event, 'java-1')">Java</button>
 </div>
 
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+  <button class="tablinks" onclick="openCity(event, 'kotlin-2')">Kotlin</button>
+  <button class="tablinks" onclick="openCity(event, 'java-2')">Java</button>
 </div>
 
 <!-- Tab content -->
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
+<div id="kotlin-1" class="tabcontent">
+  <h3>Kotlin</h3>
+  <p>Kotlin is a programming language with limited overhead</p>
 </div>
 
-<div id="Paris" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p>
+<div id="java-1" class="tabcontent">
+  <h3>Java</h3>
+  <p>Java is a programming language with a lot of overhead</p>
 </div>
 
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
+<div id="kotlin-2" class="tabcontent">
+  <h3>Hello World</h3>
+  <p>println("Hello World")</p>
 </div>
+
+<div id="java-2" class="tabcontent">
+  <h3>Hello World</h3>
+  <p>system.out.println("Hello World");</p>
+</div>
+
