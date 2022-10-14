@@ -1,6 +1,7 @@
 # markdown-playground
 Play around with GH MarkDown features
 
+<!-- this will get processed correctly in the gh-pages view -->
 <style>
 
 /* Style the tab */
@@ -68,6 +69,12 @@ function openCity(evt, cityName) {
 <tr><td>A</td><td>B</td></tr>
 <tr><td>C</td><td>D</td></tr>
 </table>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
 
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'London')">London</button>
