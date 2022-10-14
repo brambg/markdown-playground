@@ -75,12 +75,6 @@ function openCity(evt, cityName) {
   <button class="tablinks" onclick="openCity(event, 'java-1')">Java</button>
 </div>
 
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'kotlin-2')">Kotlin</button>
-  <button class="tablinks" onclick="openCity(event, 'java-2')">Java</button>
-</div>
-
-<!-- Tab content -->
 <div id="kotlin-1" class="tabcontent">
   <h3>Kotlin</h3>
   <p>Kotlin is a programming language with limited overhead</p>
@@ -89,6 +83,11 @@ function openCity(evt, cityName) {
 <div id="java-1" class="tabcontent">
   <h3>Java</h3>
   <p>Java is a programming language with a lot of overhead</p>
+</div>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'kotlin-2')">Kotlin</button>
+  <button class="tablinks" onclick="openCity(event, 'java-2')">Java</button>
 </div>
 
 <div id="kotlin-2" class="tabcontent">
