@@ -112,3 +112,13 @@ system.out.println("Hello World");
 system.out.println("Hello World");
 ```
 
+
+_Kotlin_
+```kotlin
+println("Hello World")
+```
+
+#### Java
+```java
+system.out.println("Hello World");
+```
